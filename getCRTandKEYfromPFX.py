@@ -1,7 +1,7 @@
 import OpenSSL.crypto as crypto
 import os
 
-def create_crt_and_key(pfx_file_path, password):
+def get_crt_and_key(pfx_file_path, password):
     # Load the PFX file
     with open(pfx_file_path, 'rb') as f:
         pfx_data = f.read()
@@ -22,4 +22,4 @@ def create_crt_and_key(pfx_file_path, password):
     print(f'Certificate and private key files created: {cert_file_path}, {key_file_path}')
 
 # Example usage
-create_crt_and_key('./cert.pfx', 'password123')
+get_crt_and_key('./cert.pfx', 'password123')
