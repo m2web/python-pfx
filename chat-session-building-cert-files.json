@@ -14,6 +14,8 @@
   },
   "welcomeMessage": [
     "This chat session was created Saturday morning, 2023-6-24, in about a half hour time span. Since I have been working with security certs and extracting *.crt and *.key files from a *.pfx cert, in bashshell scripts on a Linux system, I thought I will try this in python. 😊\n\n",
+    "From here to the end of this doc, is my chat session with Copilot Chat.\n\n",
+    "---------Start Chat Session---------\n\n",
     "Welcome  **@m2web**, I'm your Copilot and I'm here to help you get things done faster. I can identify issues, explain and even improve code.\n\nYou can ask generic questions, but what I'm really good at is helping you with your code. For example:",
     [
       {
